@@ -1,0 +1,95 @@
+/* form */
+.section-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  
+  position: relative;
+  z-index: 2;
+
+  margin-left: 10px;
+}
+
+.section-title::before {
+  content: '';
+
+  width: 1.5rem;
+  height: .5rem;
+  
+  display: block;
+  
+  position: absolute;
+  bottom: .25rem;
+  left: -10px;
+  z-index: -1;
+
+  border-radius: .25rem;
+
+  background-color: var(--secondary-color);
+}
+
+.form {
+  min-width: 800px;
+  
+  display: none;
+  flex-direction: column;
+  gap: 1.25rem;
+
+  margin: 0 auto;
+  padding: 2rem;
+
+  border-radius: 2rem;
+
+  background-color: var(--white);
+}
+
+.active {
+  display: flex;
+}
+
+.form-back {
+  align-self: flex-start;
+
+  padding: .5rem 1rem;
+
+  border: 0;
+  border-radius: .5rem;
+  outline: 0;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+  background-color: var(--secondary-color);
+  color: var(--white);
+
+  transition: .2s;
+}
+
+.form-back:hover {
+  background-color: var(--primary-color);
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.input-wrapper-horizontal {
+	display: flex;
+	flex-direction: row;
+	gap: .5rem;
+}
+
+.input-wrapper-radio {
+  display: flex;
+
+  gap: .5rem;
+}
+
