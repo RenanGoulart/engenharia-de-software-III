@@ -20,9 +20,9 @@ O projeto utiliza MVC como padrão arquitetural em conjunto aos padrões Facade,
 
 ## Como Utilizar
 
-Clone e rode o projeto em um servidor Tomcat (comece pelo arquivo clientsView.jsp);
+Clone e rode o projeto em um servidor Tomcat (comece pelo arquivo clientsView.jsp).
 
 - É recomendável a utlização da IDE Eclipse;
 - É necessário a utilização de um servidor Tomcat (versão utilizada: 8.5);
 
-Foi utilizado a versão 21 do Java para realização do projeto;
+Foi utilizado a versão 21 do Java para realização do projeto.
